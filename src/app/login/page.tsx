@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import React from 'react'
+import Link from "next/link";
+import React from "react";
 
 const LoginPage = () => {
   return (
@@ -13,14 +13,16 @@ const LoginPage = () => {
           <div className="flex flex-col gap-6 p-4  rounded-md">
             {/* <label htmlFor="">Username :</label> */}
             <input
-              type="text"
-              placeholder="username" id='username'
+              type="email"
+              placeholder="Email"
+              id="email"
               className="h-10 pl-2 shadow-md ring-1 ring-green-100 rounded focus:outline-none "
             />
             {/* <label htmlFor="">Password :</label> */}
             <input
-              type="password" id='password'
-              placeholder="password" 
+              type="password"
+              id="password"
+              placeholder="password"
               className="h-10 pl-2 shadow-md ring-green-100 rounded focus:outline-none"
             />
           </div>
@@ -37,6 +39,6 @@ const LoginPage = () => {
       </div>
     </div>
   );
-}
+};
 
-export default LoginPage
+export default LoginPage;

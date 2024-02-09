@@ -365,7 +365,7 @@ export const menu: Menu = [
     id: 1,
     slug: "chicken",
     title: "Chicken",
-    desc: "Savor the taste of perfection with our exquisite Italian handmade pasta menu.",
+    desc: "Nikmati ayam panggang juicy dan renyah di Surga Chicken! Setiap gigitan, rasakan kelezatan yang tak terlupakan!",
     img: "/temporary/bg-chicken.png",
     color: "white",
   },
@@ -373,7 +373,7 @@ export const menu: Menu = [
     id: 2,
     slug: "burgers",
     title: "Juicy Burgers",
-    desc: "Burger Bliss: Juicy patties, bold flavors, and gourmet toppings galore.saxaxaxasx",
+    desc: "Taklukkan lapar Anda dengan burger pilihan kami! Daging panggang premium, saus lezat, dan sayuran segar dalam setiap gigitan.",
     img: "/temporary/bg-burger.png",
     color: "black",
   },
@@ -381,10 +381,8 @@ export const menu: Menu = [
     id: 3,
     slug: "pizzas",
     title: "Cheesy Pizzas",
-    desc: "Pizza Paradise: Irresistible slices, mouthwatering toppings, and cheesy perfection.",
+    desc: "Pizza Paradise: Irisan yang menggiurkan, topping yang menggugah selera, dan kesempurnaan keju.",
     img: "/temporary/bg-pizza.png",
     color: "white",
   },
 ];
-
-

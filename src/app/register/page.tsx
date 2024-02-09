@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import React from 'react'
+import Link from "next/link";
+import React from "react";
 
 const RegisPage = () => {
   return (
@@ -14,9 +14,9 @@ const RegisPage = () => {
             <div className="flex flex-col gap-6 p-4  rounded-md">
               {/* <label htmlFor="">Username :</label> */}
               <input
-                type="text"
-                placeholder="username"
-                id="username"
+                type="email"
+                placeholder="Email"
+                id="email"
                 className="h-10 pl-2 shadow-md ring-1 ring-green-100 rounded focus:outline-none "
               />
               {/* <label htmlFor="">Password :</label> */}
@@ -41,6 +41,6 @@ const RegisPage = () => {
       </div>
     </div>
   );
-}
+};
 
-export default RegisPage
+export default RegisPage;
