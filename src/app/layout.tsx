@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <AuthProvider>
+        {/* <AuthProvider> */}
           <div>
             <Notification />
             {/* <Spacer/> */}
@@ -30,7 +30,7 @@ export default function RootLayout({
             {children}
             <Footer />
           </div>
-        </AuthProvider>
+        {/* </AuthProvider> */}
       </body>
     </html>
   );

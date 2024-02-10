@@ -23,7 +23,7 @@ const MenuPage = async () => {
         <Link
           href={`/menu/${category.slug}`}
           key={category.id}
-          className="w-full h-1/3 bg-cover p-8 md:h-1/2 bg-yellow-500"
+          className="w-full h-1/3 bg-cover p-8 md:h-1/2 bg-yellow-500 rounded-sm"
           style={{ backgroundImage: `url(${category.img})` }}
         >
           <div className={`text-${category.color}`}>
