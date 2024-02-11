@@ -5,6 +5,8 @@ import Notification from "@/components/Notification";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import AuthProvider from "@/components/AuthProvider";
+import QueryProvider from "@/components/QueryProvider";
+// import { SessionProvider } from "next-auth/react";
 // import Spacer from "@/components/Spacer";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -22,15 +24,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        {/* <AuthProvider> */}
-          <div>
-            <Notification />
-            {/* <Spacer/> */}
-            <Navbar />
-            {children}
-            <Footer />
-          </div>
-        {/* </AuthProvider> */}
+        {/* <SessionProvider> */}
+          <QueryProvider>
+            <div>
+              <Notification />
+              {/* <Spacer/> */}
+              <Navbar />
+              {children}
+              <Footer />
+            </div>
+          </QueryProvider>
+        {/* </SessionProvider> */}
       </body>
     </html>
   );
